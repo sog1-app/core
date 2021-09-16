@@ -1,6 +1,7 @@
 variables:
   imageName: 'pipelines-javascript-docker'
   DOCKER_BUILDKIT: 1
+  DOCKER_IMAGE: "alpine:latest"
 steps:
 - task: UseDotNet@2
   inputs:
